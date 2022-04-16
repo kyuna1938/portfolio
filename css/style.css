@@ -235,11 +235,23 @@ li {
 
 .work-img{
   margin: 3px;
+  width: 30%;
+}
+.work-img img{
+  width: 100%;
 }
 
 
 .work-text{
   margin: 2px;
+}
+.work-text p{
+  width: 1050px;
+}
+
+.work-url{
+  color: #b689b0;
+  text-decoration-line: underline;
 }
 
 
