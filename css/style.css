@@ -208,6 +208,43 @@ li {
 /*--------------------------------
  Works
 ---------------------------------*/
+.work-item {
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.work-title{
+  font-size: 1.4em;
+}
+
+.work-tags{
+  display: flex;
+}
+
+.work-tag{
+  background-color: #f9bcdd;
+  font-size: .9em;
+  padding: 1px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.work-body{
+  display: flex;
+}
+
+.work-img{
+  margin: 3px;
+}
+
+
+.work-text{
+  margin: 2px;
+}
+
+
+
+
 .works-list {
   display: flex;
   flex-wrap: wrap;
@@ -231,6 +268,8 @@ li {
 
 .works-img img {
   border: 1px solid #e6e6e6;
+  width: 400;
+  height: 300;
 }
 
 .works-name {
